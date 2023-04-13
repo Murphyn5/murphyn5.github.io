@@ -2681,3 +2681,67 @@ input, select, textarea {
 				}
 
 	}
+
+
+	#columncontainer {
+		width: 100%;
+		height: auto;
+		display: flex;
+		justify-content: space-between;
+		margin: auto;
+		background-size: cover;
+		background-position: 154%;
+	}
+
+	#about {
+		margin: auto;
+		height: auto;
+	}
+
+	#about-title{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 15%;
+		text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.109);
+	}
+
+	#aboutcolumn1 {
+		width: 35%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	#aboutcolumn2 {
+		width: 60%;
+	}
+
+	#row2aboutcolumn1 {
+		width: 35%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+
+	}
+
+	#row2aboutcolumn2 {
+		width: 60%;
+	}
+
+
+	.logo {
+		width: 100%;
+		border-radius: 20px;
+		box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+		border: 5px solid rgba(141, 139, 139, 0.12);
+		height: 50%;
+	}
+
+	#aalogo2{
+		width: 100%;
+		border-radius: 50%;
+		box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+		border: 5px solid rgba(141, 139, 139, 0.12);
+		height: 50%;
+	}
