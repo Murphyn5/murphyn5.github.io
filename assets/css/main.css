@@ -2248,8 +2248,8 @@ input, select, textarea {
 		color: black;
 		background-color: rgba(255, 255, 255, 0);
 		transition: background-color 0.3s, color 0.3s;
-		margin-right: 10px;
-		border-radius: 5px;
+
+		border-radius: .35em;
 	}
 
 		#main > section {
@@ -2768,15 +2768,12 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		#row3aboutcolumn2 {
-			width: 100%;
+		#about > ul > li {
+			padding-left: 0;
 		}
 
-		#row4aboutcolumn2 {
-			width: 100%;
+		#about > ul {
+			padding-left: 0;
 		}
 
-		#row5aboutcolumn2 {
-			width: 100%;
-		}
 	}
