@@ -2248,8 +2248,8 @@ input, select, textarea {
 		color: black;
 		background-color: rgba(255, 255, 255, 0);
 		transition: background-color 0.3s, color 0.3s;
-		margin-right: 10px;
-		border-radius: 5px;
+
+		border-radius: .35em;
 	}
 
 		#main > section {
@@ -2711,6 +2711,7 @@ input, select, textarea {
 		height: 100%;
 		display: flex;
 		justify-content: center;
+		margin-bottom: 20px;
 	}
 
 	#aboutcolumn2 {
@@ -2722,6 +2723,7 @@ input, select, textarea {
 		height: 100%;
 		display: flex;
 		justify-content: center;
+		margin-bottom: 20px;
 
 	}
 
@@ -2744,4 +2746,34 @@ input, select, textarea {
 		box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 		border: 5px solid rgba(141, 139, 139, 0.12);
 		height: 50%;
+	}
+
+
+	@media (max-width: 1250px) {
+		#columncontainer {
+			flex-direction: column;
+			align-items: center;
+		}
+
+
+		#row1aboutcolumn2 {
+			width: 100%;
+		}
+
+		#row2aboutcolumn2 {
+			width: 100%;
+		}
+
+		#aboutcolumn2 {
+			width: 100%;
+		}
+
+		#about > ul > li {
+			padding-left: 0;
+		}
+
+		#about > ul {
+			padding-left: 0;
+		}
+
 	}
