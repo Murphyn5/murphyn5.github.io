@@ -155,7 +155,7 @@
             top: 0,
             right: 0,
             bottom: 0,
-            zIndex: 5
+            zIndex: 0
         }),
         this.$el.addClass("jquery-ripples").append(n),
         this.context = s = n.getContext("webgl") || n.getContext("experimental-webgl"),
