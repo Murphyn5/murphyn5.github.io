@@ -394,5 +394,3 @@ function showAlertBox(response, message) {
     }
     $alContainer.fadeIn(300).delay(4000).fadeOut(400);
 }
-
-
