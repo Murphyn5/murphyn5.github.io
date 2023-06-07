@@ -141,10 +141,10 @@ $(document).ready(function () {
 
     /*========Testimonials OwlCarousel Setup========*/
     $(".testimonials .owl-carousel").owlCarousel({
-        loop: true,
+        loop: false,
         margin: 30,
         autoplay: true,
-        smartSpeed: 500,
+        smartSpeed: 1500,
         responsiveClass: true,
         dots: false,
         autoplayHoverPause: true,
@@ -153,10 +153,10 @@ $(document).ready(function () {
                 items: 1,
             },
             800: {
-                items: 1,
+                items: 2,
             },
             1000: {
-                items: 1,
+                items: 2,
             },
         },
     });
