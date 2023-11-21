@@ -1396,6 +1396,7 @@ header .header-mobile .header-toggle i {
 .portfolio-section .item figure figcaption h4 {
     font-size: 20px;
     font-weight: 700;
+    text-decoration: underline #b4fdc0;
     -webkit-transform: translateY(-50px);
     -ms-transform: translateY(-50px);
     transform: translateY(-50px);
@@ -1874,9 +1875,3 @@ header .header-mobile .header-toggle i {
 #abc {
     list-style: disc !important;
 }
-
-
-
-
-
-
